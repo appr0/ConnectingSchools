@@ -94,10 +94,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<li class="active menu__item menu__item--current"><a class="menu__link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
 						<li class=" menu__item"><a class="menu__link scroll" href="#about">About us</a></li>
 						<li class=" menu__item"><a class="menu__link scroll" href="#management">Management</a></li>
-						<li class=" menu__item"><a class="menu__link scroll" href="#activities">Activities</a></li>
-						<li class=" menu__item"><a class="menu__link scroll" href="#faculties">Faculties</a></li>
+						<li class=" menu__item"><a class="menu__link scroll" href="#activities">Events</a></li>
 						<li class=" menu__item"><a class="menu__link scroll" href="#contact">contact</a></li>
 					  </ul>
+					  <ul class="nav navbar-nav navbar-right">
+        				<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      				  </ul>
 					</div>
 				  </div>
 				</nav>	
@@ -154,7 +157,16 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<h3>Education</h3>
 							<p>The goal of education is the advancement of knowledge and the dissemination of truth.</p>
 						</div>
-					</li
+					</li>
+					<li>
+						<div class="slider-img">
+							<img src="images/bg6.jpg" class="img-responsive" alt="education">
+						</div>
+						<div class="slider-info">
+							<h3>Education</h3>
+							<p>The goal of education is the advancement of knowledge and the dissemination of truth.</p>
+						</div>
+					</li>
 				</ul>
 			</div>
 			<div class="clearfix"></div>
@@ -177,68 +189,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	</div>
 </div>
 
-<!--welcome-->
-<div class="w3l-welcome">
-	<div class="container">
-		<div class=" agile-welcome">
-			<div class="text-w3">
-				<h4>welcome to our university</h4>
-				<p>Lorem Ipsum is simply dummy text</p>
-			</div>
-			<div class="grids">
-				<div class="grid">
-					<div class="icons">
-						<i class="fa fa-book" aria-hidden="true"></i>
-					</div>
-					<div class="text">
-						<h5>SKILLED PROFESSORS</h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					</div>
-				</div>
-				<div class="grid">
-					<div class="icons">
-						<i class="fa fa-thumbs-up" aria-hidden="true"></i>
-					</div>
-					<div class="text">
-						<h5>Career Growth</h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					</div>
-				</div>
-				<div class="grid">
-					<div class="icons">
-						<i class="fa fa-table" aria-hidden="true"></i>
-					</div>
-					<div class="text">
-						<h5>BIG LIBRARY</h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					</div>
-				</div>
-				
-				<div class="grid">
-					<div class="icons">
-						<i class="fa fa-laptop" aria-hidden="true"></i>
-					</div>
-					<div class="text">
-						<h5>WELL EQUIPPED LABS</h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					</div>
-				</div>
-			</div>
-			<div class="w3-img">
-				<img src="images/man2.jpg" alt="image" />
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!--//welcome-->
 
-<!--activities-->
+<!--events-->
 <div class="gallery" id="activities">
 	<div class="container">
 	  <div class="gallery-main">
 	  	<div class="gallery-top">
-	  		<h3>our activities</h3>
+	  		<h3>our events</h3>
 	  	</div>
 		<div class="gallery-bott">
 			<div class="col-md-4 col1 gallery-grid">
@@ -346,137 +303,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 	</div>
 </div>
-<!--//activities-->
-
-<!-- opening -->
-<div class="agile-open">
-	<div class="open-head">
-		<h6>our university opening in</h6>
-		<p>“A university is just a group of buildings gathered around a library.” </p>
-	</div>
-<!-- Countdown-timer -->
-
-				<div class="examples">
-					<div class="simply-countdown-losange" id="simply-countdown-losange"></div>
-				</div>
-		
-			<div class="clearfix"></div>
-	
-<!-- //Countdown-timer -->
-
-	<!-- Custom-JavaScript-File-Links -->
-	<!-- Countdown-Timer-JavaScript -->
-			<script src="js/simplyCountdown.js"></script>
-			<script>
-				var d = new Date(new Date().getTime() + 48 * 120 * 120 * 2000);
-
-				// default example
-				simplyCountdown('.simply-countdown-one', {
-					year: d.getFullYear(),
-					month: d.getMonth() + 1,
-					day: d.getDate()
-				});
-
-				// inline example
-				simplyCountdown('.simply-countdown-inline', {
-					year: d.getFullYear(),
-					month: d.getMonth() + 1,
-					day: d.getDate(),
-					inline: true
-				});
-
-				//jQuery example
-				$('#simply-countdown-losange').simplyCountdown({
-					year: d.getFullYear(),
-					month: d.getMonth() + 1,
-					day: d.getDate(),
-					enableUtc: false
-				});
-			</script>
-			
-		<!-- //Countdown-Timer-JavaScript -->
-	<!-- //Custom-JavaScript-File-Links -->
-</div>	
-<!--// opening -->
-
-<!--faculty-->
-<div class="w3-faculty" id="faculties">
-	<div class="container">
-		<div class="faculty-head">
-			<h5>our great faculties</h5>
-			<p>“Books are the quietest and most constant of friends; they are the most accessible and wisest of counselors, and the most patient of teachers.” </p>
-		</div>
-		<div class="main-faculty">
-			<div class="f1 col-md-3 faculty1">
-				<ul class="demo-2 effect">
-					<li>
-					   <h3 class="zero">COMPUTER SCIENCE</h3>
-					   <p class="zero">Lorem ipsum dolor sit amet.</p>
-					</li>
-					 <li><img class="top" src="images/f1.jpg" alt=""/></li>
-				</ul>
-				<h4>John Roy</h4>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				<div class="social-icons">
-					<i class="s1 fa fa-facebook" aria-hidden="true"></i>
-					<i class="s2 fa fa-twitter" aria-hidden="true"></i>
-					<i class="s3 fa fa-google" aria-hidden="true"></i>
-				</div>
-			</div>
-			<div class="f2 col-md-3 faculty1">
-				<ul class="demo-2 effect">
-					<li>
-					   <h3 class="zero">COMMUNICATION SKILLS</h3>
-					   <p class="zero">Lorem ipsum dolor sit amet.</p>
-					</li>
-					 <li><img class="top" src="images/f6.jpg" alt=""/></li>
-				</ul>
-				<h4>Jesse Roy</h4>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				<div class="social-icons">
-					<i class=" s1 fa fa-facebook" aria-hidden="true"></i>
-					<i class=" s2 fa fa-twitter" aria-hidden="true"></i>
-					<i class=" s3 fa fa-google" aria-hidden="true"></i>
-				</div>
-			</div>
-			<div class="f3 col-md-3 faculty1">
-				<ul class="demo-2 effect">
-					<li>
-					   <h3 class="zero">GENERAL SCIENCE</h3>
-					   <p class="zero">Lorem ipsum dolor sit amet.</p>
-					</li>
-					 <li><img class="top" src="images/f3.jpg" alt=""/></li>
-				</ul>
-				<h4>Xena Wob</h4>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				<div class="social-icons">
-					<i class=" s1 fa fa-facebook" aria-hidden="true"></i>
-					<i class=" s2 fa fa-twitter" aria-hidden="true"></i>
-					<i class=" s3 fa fa-google" aria-hidden="true"></i>
-				</div>
-			</div>
-			<div class="f4 col-md-3 faculty1">
-				<ul class="demo-2 effect">
-					<li>
-					   <h3 class="zero">MATHEMATICS</h3>
-					   <p class="zero">Lorem ipsum dolor sit amet.</p>
-					</li>
-					 <li><img class="top" src="images/f4.jpg" alt=""/></li>
-				</ul>
-				<h4>Victor Hi</h4>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				<div class="social-icons">
-					<i class="s1 fa fa-facebook" aria-hidden="true"></i>
-					<i class="s2 fa fa-twitter" aria-hidden="true"></i>
-					<i class="s3 fa fa-google" aria-hidden="true"></i>
-				</div>
-			</div>
-			
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!--//faculty-->
+<!--//events-->
 
 <!--meet our management-->
 <div class="team" id="management">
